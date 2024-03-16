@@ -1,0 +1,100 @@
+$popins-font: "Poppins", sans-serif;
+$inter-font:"Inter", sans-serif;
+$grotesk:"Space Grotesk", sans-serif;
+ 
+.footer-top{
+    background-image: url(../images/backimg-footer.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+
+        h3{
+            font-family: $popins-font;
+            font-weight: 500;
+            font-size: 4rem;
+            color: #141718;
+            margin-top: 101px;
+        }
+        p{
+            font-family: $inter-font;
+            font-weight: 400;
+            font-size: 1.8rem;
+            color: #141718;
+            margin-top: 8px;
+        }
+    }
+    .sign-up{
+        display: flex;
+        gap: 100px;
+        margin: auto;
+        // margin-inline: 301px;
+        // padding-inline: 500px;
+        align-items: center;
+       
+        margin-top: 32px;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #6C727580;
+        margin-bottom: 93px;
+       
+        
+        
+       
+        .mail{
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            justify-content: center;
+            span{
+                margin-top: 7px;
+            }
+            p{
+                font-family: $inter-font;
+                font-weight: 500;
+                font-size: 1.6rem;
+                color: #6C7275;
+            }
+        }
+        .sign-up-button{
+            button{
+                font-family: $inter-font;
+                font-weight: 500;
+                font-size: 1.6rem;
+                color: #6C7275;
+                border-style: none;
+                background-color: transparent;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 520px){
+    .sign-up{
+        width: 30rem;
+        gap: 0;
+        P{
+            font-size: 1.5rem;
+        }
+        button{
+            font-size: 1.5rem;
+        }
+    }
+    .footer-top{
+        background-image: none;
+        background-color: #F2F4F6;
+        .footer-container{
+            h3{
+                font-size: 2.8rem;
+            }
+            p{
+                font-size: 1.4rem;
+            }
+        }
+    }
+
+}

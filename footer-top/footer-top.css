@@ -1,0 +1,81 @@
+.footer-top {
+  background-image: url(../images/backimg-footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer-top .footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-top .footer-container h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 4rem;
+  color: #141718;
+  margin-top: 101px;
+}
+.footer-top .footer-container p {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: #141718;
+  margin-top: 8px;
+}
+.footer-top .sign-up {
+  display: flex;
+  gap: 100px;
+  margin: auto;
+  align-items: center;
+  margin-top: 32px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid rgba(108, 114, 117, 0.5019607843);
+  margin-bottom: 93px;
+}
+.footer-top .sign-up .mail {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+.footer-top .sign-up .mail span {
+  margin-top: 7px;
+}
+.footer-top .sign-up .mail p {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #6C7275;
+}
+.footer-top .sign-up .sign-up-button button {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #6C7275;
+  border-style: none;
+  background-color: transparent;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 520px) {
+  .sign-up {
+    width: 30rem;
+    gap: 0;
+  }
+  .sign-up P {
+    font-size: 1.5rem;
+  }
+  .sign-up button {
+    font-size: 1.5rem;
+  }
+  .footer-top {
+    background-image: none;
+    background-color: #F2F4F6;
+  }
+  .footer-top .footer-container h3 {
+    font-size: 2.8rem;
+  }
+  .footer-top .footer-container p {
+    font-size: 1.4rem;
+  }
+}/*# sourceMappingURL=footer-top.css.map */

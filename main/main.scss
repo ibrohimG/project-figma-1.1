@@ -1,0 +1,23 @@
+@import url(../nav/nav.css);
+@import url(../header-1/header-1.css);
+@import url(../cards/cards.css);
+@import url(../footer-top/footer-top.css);
+@import url(../footer-bottom/footer-bottom.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+$popins-font: "Poppins", sans-serif;
+$inter-font:"Inter", sans-serif;
+.container{
+    margin-inline: 160px;
+   border: 1px solid;
+   margin-top: 40px;
+}
+body{
+    width: 100%;
+}
