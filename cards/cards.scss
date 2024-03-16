@@ -6,6 +6,7 @@ $grotesk:"Space Grotesk", sans-serif;
     // flex-wrap: wrap;
     grid-template-columns: repeat(3,1fr);
     gap: px;
+    row-gap: 16px;
     margin-inline: 160px;
     margin-top: 50px;
     .card{
